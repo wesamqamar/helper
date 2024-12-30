@@ -22,6 +22,9 @@ class ApproveAndForwardAction extends Action
                     ->first();
                 return !($currentStep && $record->id === $currentStep->id && $record->user_id === auth()->id());
             })
+            ->visible(function () {
+                return auth()->user()->roles->first()->name !== 'Default role';
+            })
             ->action(function (ApprovalChainStep $record) {
                 static::approveAndForwardStep($record);
             });
