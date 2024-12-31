@@ -49,7 +49,6 @@ Automatic Project Status Update: If all steps are approved, the project's status
     <img src="github-contents/4.jpg" width="20%"></img> 
     <img src="github-contents/5.jpg" width="20%"></img> 
     <img src="github-contents/6.png" width="20%"></img> 
-    <img src="github-contents/7.png" width="20%"></img> 
    
 
 ### Thanks to anyone who helps make this project better :heart:
