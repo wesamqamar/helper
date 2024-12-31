@@ -34,8 +34,11 @@ Approval Chain Management , This repository contains tasks for managing the Appr
 ## Features
 
 Approve and Forward: Allows users to approve steps in the approval chain.
-Front-End and Back-End Interaction: The Front-End displays data and sends approval requests via an API.
+
+Front-End and Back-End Interaction: The Front-End displays data and sends approval requests .
+
 Automatic Project Status Update: If all steps are approved, the project's status is updated.
+
 
 ## Screenshots
 
@@ -43,8 +46,8 @@ Automatic Project Status Update: If all steps are approved, the project's status
     <img src="github-contents/1.png" width="20%"></img> 
     <img src="github-contents/2.png" width="20%"></img> 
     <img src="github-contents/3.png" width="20%"></img> 
-    <img src="github-contents/4.png" width="20%"></img> 
-    <img src="github-contents/5.png" width="20%"></img> 
+    <img src="github-contents/4.jpg" width="20%"></img> 
+    <img src="github-contents/5.jpg" width="20%"></img> 
     <img src="github-contents/6.png" width="20%"></img> 
     <img src="github-contents/7.png" width="20%"></img> 
    
@@ -52,7 +55,9 @@ Automatic Project Status Update: If all steps are approved, the project's status
 ### Thanks to anyone who helps make this project better :heart:
 
 ### Notes
+
 Ensure that the steps follow the correct order (step_order).
+
 When sending approval, make sure the user has permission to approve the step.
 
 ## Sponsors
