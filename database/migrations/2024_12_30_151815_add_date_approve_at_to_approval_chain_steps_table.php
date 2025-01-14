@@ -23,7 +23,8 @@ return new class extends Migration
     public function down()
     {
         Schema::table('approval_chain_steps', function (Blueprint $table) {
-            //
+            $table->dropColumn('approved_at');
+
         });
     }
 };
