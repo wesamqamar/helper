@@ -6,20 +6,17 @@ namespace Tests\Feature;
 use App\Models\User;
 use App\Models\ApprovalChain;
 use App\Models\Project;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use Spatie\Permission\Models\Role;
 use Tests\TestCase;
 
 class CreateApprovalChainTest extends TestCase
 {
-    use RefreshDatabase;
 
     protected function setUp(): void
     {
         parent::setUp();
 
-        $this->artisan('migrate');
-        $this->artisan('db:seed');
+
 
         $role = Role::firstOrCreate(['name' => 'Default role']);
 
